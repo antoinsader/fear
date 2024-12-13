@@ -23,4 +23,7 @@ predata.pkl
 test.R
 test.py
 
-Data/
+Data/fitting_res_r/
+Data/fitting_res_py/
+Data/res_py/
+Data/res_r/

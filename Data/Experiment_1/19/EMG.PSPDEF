@@ -1,0 +1,43 @@
+<signals datatype="data" out_name="..">
+	<signal name="emg">
+	<filename>19_EMG.txt</filename>
+	<sampling_rate>1000</sampling_rate>
+	<has_headers>yes</has_headers>
+	<formula>S.AM("probe",,550)</formula>
+	<columns>
+		<column name="value">
+			<number>1</number>
+			<type>value</type>
+		</column>
+		<column name="EMG">
+			<number>2</number>
+			<type>timing</type>
+		</column>
+		<column name="sensitivity">
+			<number>4</number>
+			<type>active integer</type>
+		</column>
+		<column name="Stimulus">
+			<number>3</number>
+			<type>passive integer</type>
+		</column>
+		<column name="Total_Trial_Nr">
+			<number>5</number>
+			<type>passive integer</type>
+		</column>
+		<column name="practice">
+			<number>6</number>
+			<type>passive integer</type>
+		</column>
+		<column name="acq">
+			<number>7</number>
+			<type>passive integer</type>
+		</column>
+		<column name="Probe_Nr">
+			<number>8</number>
+			<type>trial</type>
+		</column>
+	</columns>        
+	</signal>
+</signals>
+
